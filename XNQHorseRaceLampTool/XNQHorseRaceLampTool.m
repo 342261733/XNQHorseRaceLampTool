@@ -45,6 +45,7 @@ static CGFloat const HorseRaceLampRunTimer  = 0.02;
     lampTool->_superView = superView;
     lampTool->_strContent = strContent;
     lampTool->_raceLabel = raceLabel;
+    [lampTool setLeftMargin:0 rightMargin:0];
     return lampTool;
 }
 
@@ -76,7 +77,6 @@ static CGFloat const HorseRaceLampRunTimer  = 0.02;
     _dicLastOriX = [NSMutableDictionary dictionary];
     _horseRaceLampType = HORSE_RACE_LAMP_Cycle;
     _percentOfFullView = 1.0 / 3.0; // 默认占屏幕1/3
-    [self setLeftMargin:0 rightMargin:0];
     return self;
 }
 
