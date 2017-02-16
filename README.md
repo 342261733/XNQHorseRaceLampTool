@@ -43,4 +43,6 @@
 
 两种方法思路不同，但是效果是一样的。用其中一种即可。
 
+# Pod 支持
 
+pod 'XNQHorseRaceLampTool'
